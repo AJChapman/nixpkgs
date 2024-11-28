@@ -12275,6 +12275,8 @@ self: super: with self; {
 
   pyric = callPackage ../development/python-modules/pyric { };
 
+  pyright = callPackage ../development/python-modules/pyright { };
+
   pyring-buffer = callPackage ../development/python-modules/pyring-buffer { };
 
   pyrisco = callPackage ../development/python-modules/pyrisco { };
